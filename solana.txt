@@ -1,0 +1,16 @@
+Input:
+docs solana, lib python3.7
+docs: https://solana.com/
+Ouput: 1 file solana.py (100-1000 line) with:
+1> class solana() login 1 master wallet solana by private key when init class, and include below intefaces:
+2> 1 global func send_coin( coin, send_to, value)
+   Coin can be : sol, ray, send coin from master account to send_to
+3> 1 global func fetch balance of master account and save to $vol[coin index]
+4> global func check, return rate sol/ ray from solana swap
+5> global func swap_2_main(coin=“sol”, valuein)
+6> global func swap_2_xxx(coin=“sol”, valuein)
+7> Auto check and set gas, handle error if fail in send data to server and retry. 
+Test all interfaces working ok on blockchain solana.
+Print out data to console.
+Using web3, requests, python3.7
+Must: experience in at least 1 (any) blockchain, about send coin/ swap coin. Experience in evm/solana  is welcome.
